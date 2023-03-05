@@ -1,3 +1,19 @@
+:root{
+  --button-background-color:#0B0E66;
+  --button-color:#26C7EA;
+  --white-color:#FFFFFF;
+  --main-font: Inter
+}
+*{
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
 .form-switch {
     display: inline-block;
     cursor: pointer;
@@ -46,3 +62,92 @@
   .form-switch input:checked + i { background-color: blue; }
   .form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
   .form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
+  .name{
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+    
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+  }
+  .hero {
+    background-image: url(./assets/img/Rectangle\ 1\ \(1\)\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .avatar{
+
+
+    
+    
+  }
+  .button{
+    width: 260px;
+    height: 80px;
+    border-top-left-radius:25%;
+    border-bottom-right-radius:25%;
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+  }
+.ukr-text{
+ 
+  width: 376px;
+height: 125px;
+}
+.hero{
+  color:var(--white-color);
+  
+  
+}
+.logo{
+  width: 258.9px;
+  height: 100px;
+ padding-top: 25px;
+}
+.eng-text{
+  
+  width: 298px;
+  height: 96px;
+
+}
+.citata1{
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+@font-face {
+  font-family:'HeadlandOne';
+  src: url(./assets/fonts/HeadlandOne-Regular.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family:'HammersmithOne' ;
+  src: url(./assets/fonts/HammersmithOne-Regular.ttf);
+}
+.trailer{
+  background-image: url(./assets/img/Rectangle\ 10\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1361px;
+  height: 700px;
+}
+.learning{
+  background-image: url(./assets/img/Rectangle\ 20\ \(2\).jpg);
+  width: 1359px;
+  height: 664px;
+  display: flex;
+}
+.blur{
+  background: linear-gradient(90deg, #36526A 5.74%, rgba(55, 107, 151, 0) 93.38%);
+}
