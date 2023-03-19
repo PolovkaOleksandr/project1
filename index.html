@@ -17,48 +17,72 @@
             <a href="" >
                 <img src="./assets/img/avatar-2-6235acaebf926 1 (1).png" alt="" class="logo"/>
             </a>
-            <label class="form-switch">
+            <!--<label class="form-switch "> 
                 <input type="checkbox">
                 ENG
                 <i></i>
                 Ua
-            </label>
-            <img src="./assets/img/1 2 (1) (1).png" alt="Avatar" class="avatar flex">
-            
-            
+            </label>-->
+            <div class="switch-lang">
+              <span class="langUA">ua</span>
+              <div class="switch__container">
+                <input
+                  id="switch-shadow"
+                  class="switch switch--shadow"
+                  type="checkbox"
+                />
+                <label for="switch-shadow"></label>
+              </div>
+              <span class="langEN">en</span>
+            </div>
+            <div class="hero-text">
+            <div>
             <div class="eng-text "><p>Oe perlltxe hu tsamsiyu!
                 Ngari hu Eywa salew tirea, 
                 tokx 'ì'awn slu Na'viyä hapxì.
                 Säwem nìayoeng!</p></div>
-                <img src="./assets/img/Rectangle 53 (1).png" alt="stick">
+                <img src="./assets/img/Rectangle 53 (1).png" alt="stick" class="stick1">
                 
                 <div class="ukr-text flex"><p>Хоробрий воїне, звертаюсь до тебе!
                     Твій дух йде з Ейвою, 
                     твоє тіло залишається, 
                     щоб стати частиною Народу.
                     Борись разом з нами!</p></div>
+                    <button class="button button1">Приєднатися до клану</button>
+                </div>
+                <img src="./assets/img/1 2 (1) (1).png" alt="Avatar" class="avatar flex">
+                    <div class="hero-svg">
                     
-                    <button class="button flex">Приєднатися до клану</button>
-                    
+                    <svg class="svg">
+                        <use href="./assets/img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                    <svg class="svg">
+                        <use href="./assets/img/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                    <svg class="svg">
+                        <use href="./assets/img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </div>
+                </div>
                 </div>
         </section>
         <section class="citata1">
             <h2 class="name">Citata1</h2>
-            <h2>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h2>
-            <p>Джейк Саллі</p>
+            <h2 class="text-citata">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </h2>
+            <p class="avtor-citata">Джейк Саллі</p>
             <img src="./assets/img/Rectangle 8 (1) (1).png" alt="angel with stick"/>
         </section>
         <section class="trailer">
         <h2 class="name">Trailer</h2>
-        <button class="button">Дивитись трейлер</button>
+        <button class="button button-trailer">Дивитись трейлер</button>
         </section>
-        <section class="citata2">
+        <section class="citata2 citata">
             <h2 class="name">Citata2</h2>
-            <h2>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
-            <p>Джейк Саллі</p>
+            <h2 class="text-citata">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
+            <p class="avtor-citata">Джейк Саллі</p>
             <img src="./assets/img/Rectangle 8 (1) (1).png" alt="angel with stick"/>
         </section>
-        <section class="learning">
+        <!--<section class="learning">
             <h2 class="name">Вчимо мову На'ві</h2>
             <ul class="learning-list">
                 <li class="learning-list-item">
@@ -104,16 +128,67 @@
                     </div>
                 </li>
             </ul>
-        </section>
-        <section class="citata3">
+        </section>-->
+        <section class="language">
+            <h2 class="language_heading">Вчимо мову На’ві</h2>
+            <div class="language-box">
+              <ul class="language-list">
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Привіт</p>
+                    <img src="./assets/img/Rectangle 97.png" alt="" class="img" />
+                    <p class="text">Kaltxì</p>
+                  </div>
+                </li>
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Як справи?</p>
+                    <img src="./assets/img/Rectangle 8 (1) (1).png" alt="" class="img" />
+                    <p class="text">Ngaru lu fpom srak?</p>
+                  </div>
+                </li>
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Все добре</p>
+                    <img src="./assets/img/Rectangle 97.png" alt="" class="img" />
+                    <p class="text">Lu fpom</p>
+                  </div>
+                </li>
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Дякую</p>
+                    <img src="./assets/img/Rectangle 97.png" alt="" class="img" />
+                    <p class="text">Irayo si</p>
+                  </div>
+                </li>
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Я бачу тебе</p>
+                    <img src="./assets/img/Rectangle 8 (1) (1).png" alt="" class="img" />
+                    <p class="text">Oel ngati kameie</p>
+                  </div>
+                </li>
+                <li class="language-list__item">
+                  <div class="box">
+                    <p id="text">Слідуй за мною!</p>
+                    <img src="./assets/img/Rectangle 97.png" alt="" class="img" />
+                    <p class="text">Nong oet!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+    
+            
+          </section>
+        <section class="citata3 citata">
             <h2 class="name">Citata3</h2>
-            <h2>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
-            <p>Джейк Саллі</p>
+            <h2 class="text-citata">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС”</h2>
+            <p class="avtor-citata">Джейк Саллі</p>
             <img src="./assets/img/Rectangle 8 (1) (1).png" alt="angel with stick"/>
         </section>
     </main>
-    <footer>
-        <img src="./assets/img/Rectangle 12.png" alt="picture"/>
+    <footer class="footer">
+        
     </footer>
 </body>
 </html>
