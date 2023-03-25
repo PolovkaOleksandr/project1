@@ -215,7 +215,7 @@ color:#FFFFFF;
   
 }
 .hero {
-  background-image: url(./assets/img/Rectangle\ 1\ \(1\)\ \(2\).jpg);
+  background-image: url(./assets/img/Rectangle1\(1\)\(2\).jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -261,21 +261,21 @@ color:#FFFFFF;
   src: url(./assets/fonts/HammersmithOne-Regular.ttf);
 }
 .trailer{
-  background-image: url(./assets/img/Rectangle\ 10\ \(1\).jpg);
+  background-image: url(./assets/img/Rectangle10\(1\).jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 height: 700px;
 }
-.learning{
-  background-image: url(./assets/img/Rectangle\ 20\ \(2\).jpg);
+/*.learning{
+  background-image: url(./assets/img/Rectangle20\(2\).jpg);
   
   height: 664px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+}*/
 .blur{
   background: linear-gradient(90deg, #36526A 5.74%, rgba(55, 107, 151, 0) 93.38%);
  
@@ -317,7 +317,7 @@ height: 700px;
   margin-left: 165px;
 }
 .language {
-  background-image: url(./assets/img/Rectangle\ 20\ \(2\).jpg);
+  background-image: url(./assets/img/Rectangle20\(2\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -354,7 +354,7 @@ height: 700px;
 .language-list__item:nth-child(-n + 3) {
   margin-bottom: 30px;
 }
-#text {
+.text1{
   margin: 0 auto 40px auto;
 
   font-family: "HeadlandOne";
@@ -404,7 +404,7 @@ height: 700px;
 height: 268px;
 }
 .footer{
-  background-image: url(./assets/img/Rectangle\ 12.png);
+  background-image: url(./assets/img/Rectangle12.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -453,7 +453,7 @@ line-height: 29px;
   width: 600px;
   height: 400px;
 
-  background-image: url(./assets/img/Rectangle\ 51.jpg);
+  background-image: url(./assets/img/Rectangle51.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
