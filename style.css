@@ -473,10 +473,10 @@ line-height: 29px;
 }
 
 .icon-close {
-  display: inline-block;
+  display: block;
   width: 16px;
   height: 16px;
-  fill: #0b0e66;
+  fill: #0B0E66;
 }
 
 .icon-close:hover,
