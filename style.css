@@ -302,6 +302,7 @@ height: 700px;
   justify-content: center;
   align-items: flex-end;
   margin-left: 705px;
+  justify-content: flex-start
 }
 .stick1{
   margin-bottom: 10px;
